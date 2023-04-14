@@ -1,0 +1,20 @@
+* {margin: 0;padding: 0;vertical-align: middle;box-sizing: border-box;}
+/* 기본으로 설정되어야 할 4가지 / 패딩이나 테두리는 포함한 넓이로 잡겠다 하는게 box-sizing border-box */
+html, body {width: 100%;height: 100%;}
+html {
+    overflow-y: scroll;
+    scroll-behavior: smooth; /* 스무스스크롤링 */
+}
+html.on { overflow: hidden; }
+body {
+    font: normal 14px/1 "Montserrat", "Nanum Gothic";
+    color: rgb(50, 50, 50);
+    background: rgb(255, 255, 255);
+}
+ul {list-style: none;}
+
+a {text-decoration: none;color: rgb(50, 50, 50);}
+
+h1,h2,h3,h4,h5,h6 {font-weight: normal;font-size: 14px;}
+
+.hide {display: none;}
